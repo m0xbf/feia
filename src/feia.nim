@@ -5,3 +5,4 @@ import feia/submodule
 
 when isMainModule:
   echo(getWelcomeMessage())
+  runWeb()
