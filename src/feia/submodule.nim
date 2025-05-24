@@ -18,5 +18,5 @@ proc runWeb*() =
   router.get("/", indexHandler)
 
   let server = newServer(router)
-  echo "Serving on http://localhost:10300"
-  server.serve(Port(10300))
+  echo "Serving on http://localhost:10302"
+  server.serve(Port(10302))
