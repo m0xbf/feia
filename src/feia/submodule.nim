@@ -4,7 +4,7 @@
 # this file as required.
 
 proc getWelcomeMessage*(): string =
-  "Hello, World-0.1.5!"
+  "Hello, World-0.1.5-A!"
 
 import mummy, mummy/routers
 
